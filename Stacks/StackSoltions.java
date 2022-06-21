@@ -1,6 +1,8 @@
 import java.util.*;
 
 public class StackSoltions{
+    
+
     public static void main(String[] args){
         Stack<Integer> s1 = new Stack<>();
         s1.push(4);
@@ -35,6 +37,6 @@ public class StackSoltions{
         s1.pop();
         s1.pop();
         
-        System.out.println("\n is the stack empty after 2 more pops s? -->"+s1.isEmpty());
+        System.out.println("\n is the stack empty after 2 more pops ? -->"+s1.isEmpty());
     }
 }

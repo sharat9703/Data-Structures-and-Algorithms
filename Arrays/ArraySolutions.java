@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class ArraySolutions{
+    private static int as[];
     public static void main(String[] args) {
       /*int[] a1 = new int[6];
       int count = 1;
@@ -29,18 +30,18 @@ public class ArraySolutions{
         }*/
          /////////////
          
-         int a[] = new int[] {2,4,6,8,1,3,5,7,9,0};
+         as = new int[] {2,4,6,8,1,3,5,7,9,0};
 
-         for(int i=0;i<a.length;i++){
-             System.out.print(a[i]+"\t");
+         for(int i=0;i<as.length;i++){
+             System.out.print(as[i]+"\t");
          }
          //Arrays.sort(a);  quicksort
          System.out.println("\n");
-         for(int i=0;i<a.length;i++){
-            System.out.print(a[i]+"\t");
+         for(int i=0;i<as.length;i++){
+            System.out.print(as[i]+"\t");
         }  
 
-        int indexValue = search(a,8);
+        int indexValue = search(as,8);
 
         System.out.println("\nindex value  is\t"+indexValue);
 
