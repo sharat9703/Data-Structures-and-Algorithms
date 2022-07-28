@@ -8,6 +8,7 @@ public class BinarySearch{
     int target1;
     Scanner in = new Scanner(System.in);
     target1 = in.nextInt();
+    in.close();
     int bs = BSearch(arr,arr[0],arr[arr.length-1],target1);
 
     boolean exists = (bs == target1);
