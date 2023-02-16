@@ -1,6 +1,6 @@
 # Data-Structures-and-Algorithms
 
---For Practice. <></>
+--Strictly For Practice. <></>
 
 --Here all the coding will be done either in Java or in Python or C 
 
